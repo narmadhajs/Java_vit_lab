@@ -91,3 +91,18 @@ class Student{
                  System.out.println(shortsArray.getClass());
         }
     }
+
+class Student{
+    
+    public static void main(String[] args){
+         int intarr[]=new int[6];
+         int cloneArray[]=intarr.clone();
+         System.out.println(intarr==cloneArray);
+         for(int i=0;i<cloneArray.length;i++){
+             System.out.println(cloneArray[i]+" ");
+         }
+        }
+    }
+
+               
+        
