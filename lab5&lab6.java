@@ -103,6 +103,19 @@ class Student{
          }
         }
     }
+class Student{
+    
+    public static void main(String[] args){
+         int intarr[][]={{1,2,3},{4,5}};
+         int cloneArray[][]=intarr.clone();
+         System.out.println(intarr==cloneArray);
+        
+             System.out.println(intarr[0]==cloneArray[0]);
+             System.out.println(intarr[1]==cloneArray[1]);
+         
+         
+        }
+    }
 
                
         
