@@ -116,6 +116,159 @@ class Student{
          
         }
     }
+//oops
+import java.util.*;
+    public class Main{
+        int x=5;
+    
+    public static void main(String[] args){
+        // Scanner sc=new Scanner(System.in);
+        Main obj=new Main();
+        System.out.println(obj.x);
+        
+        
+    }
+}
+import java.util.*;
+    public class Main{
+        int x=5;
+    public static void main(String[] args){
+        Main obj=new Main();
+        Main obj1=new Main();
+        Main obj2=new Main();
+        System.out.println(obj.x);
+        
+         System.out.println(obj1.x);
+        
+    }
+    
+}
+import java.util.*;
+public class Main{
+        int x=5;
+    
+}
+ class Main2{
+     public static void main(String[] args){
+        Main obj=new Main();
+        Main obj1=new Main();
+        Main obj2=new Main();
+        System.out.println(obj.x);
+        
+         System.out.println(obj1.x);
+        
+    }
+}
+import java.util.*;
+public class Main{
+        int x;
+}
+ class Main2{
+     public static void main(String[] args){
+        Main obj=new Main();
+        obj.x=40;
+        System.out.println(obj.x);
+        
+    }
+}
+import java.util.*;
+public class Main{
+        int x=10;
+}
+ class Main2{
+     public static void main(String[] args){
+        Main obj=new Main();
+        obj.x=40;
+        System.out.println(obj.x);
+        
+    }
+}
+import java.util.*;
+public class Main{
+        final int x=10;
+}
+ class Main2{
+     public static void main(String[] args){
+        Main obj=new Main();
+        obj.x=40;
+        System.out.println(obj.x);
+        
+    }
+}
+import java.util.*;
+public class Main{
+         int x=10;
+}
+ class Main2{
+     public static void main(String[] args){
+        
+        Main obj=new Main();
+        Main obj1=new Main();
+        obj1.x=40;
+        System.out.println(obj1.x);
+        System.out.println(obj.x);
+ }
+}
 
-               
+import java.util.*;
+public class Main{
+    String fname="John";
+    String Iname="Doe";
+    
+         int age=10;
+}
+ class Main2{
+     public static void main(String[] args){
+        
+        Main obj=new Main();
+        System.out.println("Name:"+obj.fname+" "+obj.Iname);
+    System.out.println("Age: "+obj.age);
+}
+}
+import java.util.*;
+public class Main{
+    static void hello(){
+        System.out.println("Hello World!");
+    }
+}
+class Main2{
+    public static void main(String[] args){
+        
+        Main obj=new Main();
+        obj.hello();
+    }
+}
+import java.util.*;
+public class Main{
+    
+     public void fullThrottle(){
+        System.out.println("The car is going as fast as it can..");
+    }
+    public void speed(int maxSpeed){
+         System.out.println("MaxSpeed:"+maxSpeed);
+    }
+}
+class Main2{
+    public static void main(String[] args){
+        Main obj=new Main();
+        obj.fullThrottle();
+        obj.speed(120);
+}
+    }
+
+import java.util.*;
+public class Main{
+    
+     int x;
+     public Main(){
+         x=5;
+         
+     }
+}
+class Main2{
+    public static void main(String[] args){
+        Main obj=new Main();
+       System.out.println(obj.x);
+    }
+}
         
