@@ -38,3 +38,28 @@ public static void main(String[] args){
     System.out.println(myobj.j);
 }
 }
+class Animal{
+    public void animalSound(){
+        System.out.println("The animal makes a sound");
+    }
+}
+class Pig extends Animal{
+    public void animalSound(){
+        System.out.println(" The Pig says: wee wee");
+    }
+}
+class Dog extends Animal{
+    public void animalSound(){
+        System.out.println("The dog says: Bow wow");
+    }
+}
+class main{
+    public static void main(String[] args){
+        Animal myAnimal=new Animal();
+        Animal myPig=new Pig();
+        Animal myDog=new Dog();
+        myAnimal.animalSound();
+        myPig.animalSound();
+        myDog.animalSound();
+    }
+}
